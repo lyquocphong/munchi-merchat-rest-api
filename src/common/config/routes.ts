@@ -1,3 +1,7 @@
 export const routesConfig = {
-    swagger: 'api-doc'
+    swagger: 'api-doc',
+    auth: {
+        login: 'login',
+        logout: 'logout'
+    }
 }

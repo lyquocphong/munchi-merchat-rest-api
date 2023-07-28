@@ -12,3 +12,7 @@ export const swaggerConfig = new DocumentBuilder()
         scheme: 'bearer',
     })
     .build();
+
+export const swaggerTag = {
+    auth: 'authentication'
+}
